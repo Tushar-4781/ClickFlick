@@ -1,0 +1,71 @@
+hr{
+    background-color: slategrey;
+    width: 80%;
+    height: 0.75px;
+}
+.player-Panel{
+    background: #181818 !important;
+    margin-top: 1%;
+}
+.player-Window{
+    background:#181818 !important;
+    height: 70vh;
+    border-radius: 8px;
+    width: 79vw;
+}    
+.videoPlayer-info {
+    color: white;
+    margin: 0% 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+}
+.videoPlayer-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+.videoPlayer-information{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: #C2C2C2;
+    display: flex;
+    justify-content: space-between;
+}
+.Voting {
+    width: 220px;
+    /* padding: 0.5% 0%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+  
+.active {
+/* border: 1px solid blue; */
+background-color: #1890ff !important;
+  }
+  
+  .Voting-button {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    /* line-height: 0px; */
+    color: white;
+}
+.Voting-button > button {
+    border-radius: 25px;
+    background: #181818;
+    font-size: 20px;
+    width: 90px;
+    margin: 9% 0%;
+}
+.Voting-button-text{
+    padding-bottom: 3%;
+}
+#mine{
+    width: 640px;
+}

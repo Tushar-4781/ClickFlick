@@ -1,0 +1,102 @@
+.navbar{
+    padding: 0.55rem 0 0 1rem !important;
+    background-color: #313131 !important;
+
+}
+.Upload-Button{
+    position: absolute !important;
+    left: 90.35% ;
+    right: 1.67% ;
+    top: 24.05%;
+    bottom: 96.33% ;
+    color: #FFFFFF !important;
+    background: #4CA3FC !important;
+    border-radius: 4px !important;
+    /* height: 30px ;
+    width: 115px ;
+    left: 1301px ;
+    top: 12px ; */
+    border-radius: 4px !important;
+}
+.ant-input-search-button{
+    background: #313131 !important;
+    border: 1px solid #444D56 !important;
+    box-sizing: border-box !important;
+    border-radius: 0px 2px 2px 0px !important;
+
+}
+.ant-input-group-wrapper{
+margin: 0% 22% !important;
+}
+.ant-input-search{
+    width: 44% !important;
+}
+
+.ant-input{
+    color: white !important;
+    background: #121212 !important;
+    border: 1px solid #444D56 !important;
+    box-sizing: border-box !important;
+    border-radius: 2px 0px 0px 2px !important;
+}
+#Logo_bigX{
+    
+    /* position: absolute; */
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    /* font-family: "Roboto Condensed"; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #EE1520;
+}
+#Logo_flix{
+    /* position: absolute; */
+    width: 42px;
+    height: 28px;
+    left: 42px;
+    top: 13px;
+    /* font-family: "Roboto"; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.05em;
+
+    /* Gray/gray-200 */
+
+    color: #E1E4E8;
+}
+.header-title{
+    display: flex;
+    /* position: absolute; */
+    width: 60px;
+    height: 29.3px;
+    left: 24px;
+    top: 13px;
+}
+
+.ant-modal-header{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16)), #121212 !important;
+    border-bottom: none !important;
+}
+.ant-modal-content{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16)), #121212 !important;
+}
+.ant-modal-body{
+    padding: 0% 2.5%;
+}
+.ant-modal-close, .ant-modal-title{
+    color: white !important;
+}
+.ant-modal-footer{
+    padding: 0 !important;
+    border-top: none !important;
+}
