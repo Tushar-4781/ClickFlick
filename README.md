@@ -6,4 +6,5 @@ Note - The Azure services are not free hence there are two URLs of this project
   2. Deployed url which is the LITE version where the CLOUD SERVICES are not present
 
 DEMO - https://youtu.be/1QY2Rcr7GJM
+
 Deployed URL - https://xflix-reels.netlify.app/
