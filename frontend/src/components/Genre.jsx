@@ -1,11 +1,11 @@
 import React from 'react';
 
 import { Tag } from 'antd';
-import { Typography } from "@material-ui/core";
+import { Typography } from '@mui/material';
+import {ageList, genreList} from "./utils/Lists"
 
 import "./Genre.css"
-import 'antd/dist/antd.css';
-import {ageList, genreList} from "./utils/Lists"
+
 const CheckableTag = Tag.CheckableTag;
 
 class Genre extends React.Component{

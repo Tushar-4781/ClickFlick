@@ -14,7 +14,7 @@ export function getDate(releaseDate){
     if(diffDay!==0)
         return `${diffDay} day${diffDay<=1 ? '':'s'} ago`;
     if(diffMin!==0)
-        return `${Math.max(0,diffMin)} minute${diffMin<=1 ? '':'s'} ago`;
+        return `${diffMin} minute${diffMin<=1 ? '':'s'} ago`;
     
     return `${diffSec} second${diffSec<=1 ? '':'s'} ago`;
     

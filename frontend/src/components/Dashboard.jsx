@@ -4,7 +4,6 @@ import { config } from "../App";
 import { Row, Col,message} from 'antd';
 
 import "./Dashboard.css"
-import 'antd/dist/antd.css';
 // import { withRouter } from "react-router-dom";
 import Video from "./Video"
 import Genre from "./Genre"

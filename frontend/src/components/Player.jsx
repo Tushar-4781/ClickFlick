@@ -3,7 +3,6 @@ import "./Player.css"
 import { FaRegThumbsUp, FaRegThumbsDown } from "react-icons/fa";
 import { config } from "../App";
 import { Row, Col,message} from 'antd';
-import c from "classnames";
 
 import Header from "./Header"
 import Video from "./Video"
@@ -129,13 +128,11 @@ class Player extends React.Component{
           dislikeActive: false})
         }
     }
+  
     render(){
       const {videoLink,viewCount,releaseDate,title,_id } = this.props.location.state.loadVideo
-      let url = `${config.vidEndpoint}/v1/videos/playVideo/${videoLink}`;
-      console.log(url)
-      // url = "https://clickflick.blob.core.windows.net/files/E-CART.mp4"
-      const iframe = <video className="player-Window" autoPlay controls><source src={url} type = "video/mp4"/></video>
-      
+      const iframe = <iframe className="player-Window" key={_id} src={`https://www.${videoLink}`} ></iframe>
+
         return(
             <>
             <Header videoPreview={true}/>

@@ -2,14 +2,7 @@
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16)), #121212 !important;
 }
 
-.dropzone{
-  border: 2px dashed !important;
-  border-radius: 10px;
-  padding: 50px 0;
-  text-align: center;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.6)
-}
+
 
 label, .MuiSelect-iconOutlined{
   color: rgba(255, 255, 255, 0.38) !important;
@@ -27,41 +20,4 @@ label, .MuiSelect-iconOutlined{
 }
 #upload-btn-cancel{
   background-color: unset !important;
-}
-.ant-modal{
-  width: 100% !important;
-}
-.main_cont{
-  display: flex;
-}
-#video-upload-btn{
-
-}
-.ant-progress{
-  text-align: center !important;
-}
-.ant-progress-text{
-  color: #87d068 !important;
-}
-.panel-1{
-  width: 100%;
-}
-.uploader{
-  /* flex-direction: row-reverse; */
-  display: flex;
-  flex-direction: column;
-  margin-top: 5%;
-}
-#img-view{
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 1.5%;
-  font-size: 18px;
-  justify-content: center;
-  cursor: pointer;
-  background: #fef289;
-  border: solid;
-  display: flex;
-
 }
