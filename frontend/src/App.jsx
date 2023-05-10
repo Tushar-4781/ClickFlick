@@ -6,7 +6,7 @@ import Player from './components/Player';
 import ipConfig from "./ipConfig.json";
 
 export const config = {
-  endpoint: `https://xflix-backend-node.herokuapp.com`,
+  endpoint: `https://xflix-node.vercel.app`,
 };
 function App() {
   return (
