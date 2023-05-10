@@ -10,6 +10,7 @@ import Genre from "./Genre"
 import Header from "./Header"
 import {ageList, genreList} from "./utils/Lists"
 
+import 'antd/dist/reset.css';
 
 
 class Dashboard extends React.Component{

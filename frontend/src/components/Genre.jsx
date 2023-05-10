@@ -3,6 +3,7 @@ import React from 'react';
 import { Tag } from 'antd';
 import { Typography } from '@mui/material';
 import {ageList, genreList} from "./utils/Lists"
+import 'antd/dist/reset.css';
 
 import "./Genre.css"
 

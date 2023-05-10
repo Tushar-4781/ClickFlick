@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import UploadModal from "./UploadModal"
 import "./Header.css";
 import { Navbar } from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Header extends React.Component{
     constructor(props){
