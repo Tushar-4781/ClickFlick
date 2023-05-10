@@ -6,7 +6,7 @@ import Player from './components/Player';
 import ipConfig from "./ipConfig.json";
 // https://xflix-backend-node.herokuapp.com https://vidserver.azurewebsites.net
 export const config = {
-  endpoint: "http://localhost:8082",
+  endpoint: "https://xflix-node.vercel.app",
   vidEndpoint: `https://vidserver.azurewebsites.net`
 };
 function App() {
