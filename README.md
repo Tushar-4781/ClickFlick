@@ -7,4 +7,4 @@ Note - The Code does consist the part the video player and the Azure Storage for
 
 DEMO - https://youtu.be/1QY2Rcr7GJM
 
-Deployed URL - https://xflix-reels.netlify.app/
+Deployed URL - https://click-flick.netlify.app/
